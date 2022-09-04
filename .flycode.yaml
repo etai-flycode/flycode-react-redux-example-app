@@ -3,9 +3,11 @@ environments:
   - name: master
     branch: master
     mode: pull-request
+    
 apps:
   - name: flycode-react-redux-example-app
-    path: ""
+    path: src/app
     text-resources:
       - path: "*.tsx"
         format: react-hardcoded
+
