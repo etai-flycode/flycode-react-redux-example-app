@@ -52,15 +52,15 @@ class App extends React.Component {
     const routes = [
       {
         path: "/login",
-        title: "Login"
+        title: "Log In"
       },
       {
         path: "/register",
-        title: 'Register'
+        title: 'Sign Up'
       },
     ];
 
-    const loadingMessage = "The app is still loading";
+    const loadingMessage = "The app is still loading...";
 
     if (this.props.appLoaded) {
       return (
