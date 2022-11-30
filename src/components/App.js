@@ -49,6 +49,19 @@ class App extends React.Component {
   }
 
   render() {
+    const routes = [
+      {
+        path: "/login",
+        title: "Login"
+      },
+      {
+        path: "/register",
+        title: 'Register'
+      },
+    ];
+
+    const loadingMessage = "The app is still loading";
+
     if (this.props.appLoaded) {
       return (
         <div>
