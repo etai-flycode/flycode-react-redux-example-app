@@ -56,7 +56,7 @@ class App extends React.Component {
       },
       {
         path: "/register",
-        title: 'Sign Up'
+        title: 'Sign Up Route'
       },
     ];
 
