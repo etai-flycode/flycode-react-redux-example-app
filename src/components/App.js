@@ -52,7 +52,7 @@ class App extends React.Component {
     const routes = [
       {
         path: "/login",
-        title: "Log In"
+        title: "Log In Route"
       },
       {
         path: "/register",
