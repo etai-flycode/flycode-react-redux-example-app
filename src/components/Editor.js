@@ -116,7 +116,7 @@ class Editor extends React.Component {
                     <input
                       className="form-control"
                       type="text"
-                      placeholder="What is this article about??? quote ' quote \" yeah"
+                      placeholder="What is this article about??? quote ' quote \" yeah 1"
                       value={this.props.description}
                       onChange={this.changeDescription} />
                   </fieldset>
@@ -125,7 +125,7 @@ class Editor extends React.Component {
                     <textarea
                       className="form-control"
                       rows="8"
-                      placeholder="Write your article (in markdown)"
+                      placeholder="Write your article (in markdown) 2"
                       value={this.props.body}
                       onChange={this.changeBody}>
                     </textarea>
