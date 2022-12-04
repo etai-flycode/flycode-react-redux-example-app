@@ -53,7 +53,7 @@ class Register extends React.Component {
           <div className="row">
 
             <div className="col-md-6 offset-md-3 col-xs-12">
-              <h1 className="text-xs-center">Sign Up Route</h1>
+              <h1 className="text-xs-center">Sign Up Button</h1>
               <p className="text-xs-center">
                 <Link to="/login">
                   Have an account?
@@ -96,7 +96,7 @@ class Register extends React.Component {
                     className="btn btn-lg btn-primary pull-xs-right"
                     type="submit"
                     disabled={this.props.inProgress}>
-                    Sign up
+                    Sign up Route
                   </button>
 
                 </fieldset>
