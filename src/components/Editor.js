@@ -116,7 +116,7 @@ class Editor extends React.Component {
                     <input
                       className="form-control"
                       type="text"
-                      placeholder="What's this article about?"
+                      placeholder="What is this article about???"
                       value={this.props.description}
                       onChange={this.changeDescription} />
                   </fieldset>
